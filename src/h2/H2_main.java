@@ -10,7 +10,6 @@ public class H2_main {
         myList.append(45);
         myList.append(60);
 
-        // Test Beispiel aus PDF
         System.out.println("InsertAfter 45, 4: " + myList.insertAfter(45, 4));
         
         Node n = myList.findFirst(45);
@@ -18,7 +17,6 @@ public class H2_main {
 
         System.out.println("Delete 45: " + myList.delete(45));
 
-        // Ausgabe der Liste zur Kontrolle
         Node current = myList.getFirst();
         while(current != null) {
             System.out.print(current.value + " ");
